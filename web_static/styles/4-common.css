@@ -1,3 +1,7 @@
+html, body {
+    min-height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -8,8 +12,10 @@ body {
 
 .container {
     max-width: 1000px;
-    margin: 30px auto;
+    margin: 30px auto 0;
+    padding-bottom: 61px;
 }
+
 button {
     font-size: 18px;
     background-color: #FF5A5F;
@@ -21,6 +27,7 @@ button {
     position: absolute;
     left: 75%;
 }
+
 button:hover {
     opacity: 90%;
 }
