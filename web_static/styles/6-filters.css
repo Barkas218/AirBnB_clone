@@ -58,8 +58,6 @@ h4 {
 .amenities:hover .popover {
     display: block;
 }
-
-.state-name {
-    font-size: 20px;
-    font-weight: bold;
+.popover h2 {
+    margin: 0;
 }
